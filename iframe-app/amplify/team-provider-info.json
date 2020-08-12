@@ -1,0 +1,19 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-iframeapp-dev-84927-authRole",
+            "UnauthRoleArn": "arn:aws:iam::054853655294:role/amplify-iframeapp-dev-84927-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::054853655294:role/amplify-iframeapp-dev-84927-authRole",
+            "Region": "us-west-2",
+            "DeploymentBucketName": "amplify-iframeapp-dev-84927-deployment",
+            "UnauthRoleName": "amplify-iframeapp-dev-84927-unauthRole",
+            "StackName": "amplify-iframeapp-dev-84927",
+            "StackId": "arn:aws:cloudformation:us-west-2:054853655294:stack/amplify-iframeapp-dev-84927/f8cd7700-d5a0-11ea-ba2f-0adc445e54d6"
+        },
+        "categories": {
+            "auth": {
+                "iframeapp10da7d56": {}
+            }
+        }
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "appName": "iframeapp",
+    "roleName": "pinpointLambdaRole000638b4",
+    "cloudformationPolicyName": "cloudformationPolicy000638b4",
+    "cloudWatchPolicyName": "cloudWatchPolicy000638b4",
+    "pinpointPolicyName": "pinpointPolicy000638b4",
+    "authPolicyName": "pinpoint_amplify_000638b4",
+    "unauthPolicyName": "pinpoint_amplify_000638b4",
+    "authRoleName": {
+        "Ref": "AuthRoleName"
+    },
+    "unauthRoleName": {
+        "Ref": "UnauthRoleName"
+    },
+    "authRoleArn": {
+        "Fn::GetAtt": [
+            "AuthRole",
+            "Arn"
+        ]
+    }
+}
